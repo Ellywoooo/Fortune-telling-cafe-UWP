@@ -1,0 +1,229 @@
+﻿<Page
+    x:Class="CafeOZ.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CafeOZ"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/MainPage.jpg" Opacity="0.8"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="48.8" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="49*" />
+            <RowDefinition Height="30*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <!--Logo-->
+        <Grid
+            Grid.Column="2" 
+            Grid.ColumnSpan="8" 
+            Grid.RowSpan="5" 
+            Grid.Row="2" 
+            Margin="10,0,10,30"
+            CornerRadius="20"
+            BorderBrush="Beige"
+            BorderThickness="1"
+            Opacity="0.8"
+            VerticalAlignment="Bottom">
+
+            <Image x:ConnectionId='7' 
+               Source="/Assets/Logo1.png" 
+               Stretch="Fill"
+                                       />
+        </Grid>
+
+
+        <!--Drink menu list-->
+        <Grid Grid.Row="6"
+              Grid.RowSpan="3"
+              Grid.Column="2"
+              Grid.ColumnSpan="4"
+              Margin="20"
+              CornerRadius="10,10,10,10"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center">
+            <RelativePanel>
+                <Image x:ConnectionId='6' x:Name="Drinkbtn" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" 
+                                            
+                    Source= "/Assets/drinkIcon.png"
+                    Stretch="Fill"
+                    Margin="10,10,10,10"
+                    Height="80"
+                    Width="80">
+                </Image>
+                
+                <TextBlock
+                    RelativePanel.AlignBottomWith="Drinkbtn"
+                    RelativePanel.AlignHorizontalCenterWith="Drinkbtn"
+                    RelativePanel.AlignVerticalCenterWith="Drinkbtn"
+                    FontSize="13"
+                    Text="Drink Menu"
+                    TextWrapping="Wrap"
+                    Foreground="Black"
+                    FontWeight="SemiLight"
+                    FontFamily="Quicksand"
+                    />
+            </RelativePanel>
+            
+        </Grid>
+        <!--Turkish coffee-->
+        <Grid Grid.Row="6"
+              Grid.RowSpan="3"
+              Grid.Column="6"
+              Grid.ColumnSpan="4"
+              Margin="20"
+              CornerRadius="10,10,10,10"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center">
+            <RelativePanel>
+                <Image x:ConnectionId='5' x:Name="Coffeebtn" 
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch" 
+                                             
+                    Source= "/Assets/coffeeIcon.png"
+                    Stretch="Fill" 
+                    Margin="10,10,10,10"
+                    Height="80"
+                    Width="80">
+                </Image>
+                <TextBlock
+                    RelativePanel.AlignBottomWith="Coffeebtn"
+                    RelativePanel.AlignHorizontalCenterWith="Coffeebtn"
+                    RelativePanel.AlignVerticalCenterWith="Coffeebtn"
+                    FontSize="13"
+                    Text="Turkey's Coffee"
+                    TextWrapping="Wrap"
+                    Foreground="Black"
+                    FontWeight="ExtraLight"
+                    FontFamily="Quicksand"
+                    />
+            </RelativePanel>
+           
+        </Grid>
+        <!--Fortune cookie-->
+        <Grid Grid.Row="9"
+              Grid.RowSpan="3"
+              Grid.Column="2"
+              Grid.ColumnSpan="4"
+              Margin="20"
+              CornerRadius="10,10,10,10" 
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center">
+            
+            <RelativePanel>
+                <Image x:ConnectionId='4' x:Name="Cookiebtn" 
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch" 
+                                                  
+                        Source= "/Assets/fortunecookieIcon.png"
+                        Stretch="fill"
+                        Margin="10,10,10,10"
+                        Height="80"
+                        Width="80"/>
+
+                <TextBlock
+                    RelativePanel.AlignBottomWith="Cookiebtn"
+                    RelativePanel.AlignHorizontalCenterWith="Cookiebtn"
+                    RelativePanel.AlignVerticalCenterWith="Cookiebtn"
+                    FontSize="13"
+                    Text="Fortune Cookie"
+                    TextWrapping="Wrap"
+                    Foreground="Black"
+                    FontWeight="ExtraLight"
+                    FontFamily="Quicksand"/>
+            </RelativePanel>
+        </Grid>
+        <!--Tarot card-->
+        <Grid Grid.Row="9"
+              Grid.RowSpan="3"
+              Grid.Column="6"
+              Grid.ColumnSpan="4"
+              Margin="20"
+              CornerRadius="10,10,10,10"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center">
+
+            <RelativePanel>
+                <Image x:ConnectionId='3' x:Name="Tarotbtn" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch"
+                                             
+                    Source= "/Assets/tarotIcon.png"
+                    Stretch="Fill"
+                    Margin="10,10,10,10"
+                    Height="80"
+                    Width="80">
+                </Image>
+
+                <TextBlock
+                    RelativePanel.AlignBottomWith="Tarotbtn"
+                    RelativePanel.AlignHorizontalCenterWith="Tarotbtn"
+                    RelativePanel.AlignVerticalCenterWith="Tarotbtn"
+                    FontSize="13"
+                    Text="Tarot Card"
+                    TextWrapping="Wrap"
+                    Foreground="Black"
+                    FontWeight="ExtraLight"
+                    FontFamily="Quicksand"/>
+            </RelativePanel>
+        </Grid>
+        
+        <!--AboutAs-->
+        <Grid
+            Grid.ColumnSpan="4" 
+            Grid.Column="4" 
+            Grid.Row="12" 
+            Background="Purple" 
+            Opacity="0.7"
+            CornerRadius="10"
+            Margin="5,5,5,5">
+            <Button x:ConnectionId='2' x:Name="Aboutbtn" 
+                Content="About us"             
+                Height="40" 
+                Width="140" 
+                                         
+                FontFamily="Quicksand" 
+                FontSize="15" 
+                HorizontalAlignment="Center"/>
+        </Grid>
+
+
+
+
+
+    </Grid>
+</Page>
+

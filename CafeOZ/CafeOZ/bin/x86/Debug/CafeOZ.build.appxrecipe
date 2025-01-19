@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-JF9Q5QRE</Machine>
+    <WindowsUser>wjwj0</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>e2cc8f7a-9d48-4a70-aa49-1d79ca2e10a3</PackageIdentityName>
+    <PackageIdentityPublisher>CN=wjwj0</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\CafeOZ.exe">
+      <PackagePath>entrypoint\CafeOZ.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\AMERICANO.jpg">
+      <PackagePath>Assets\AMERICANO.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\CAPPUCCINO.jpg">
+      <PackagePath>Assets\CAPPUCCINO.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\CARAMEL LATTE.jpg">
+      <PackagePath>Assets\CARAMEL LATTE.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Card1.jpg">
+      <PackagePath>Assets\Card1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Card2.jpg">
+      <PackagePath>Assets\Card2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Card3.jpg">
+      <PackagePath>Assets\Card3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Card4.jpg">
+      <PackagePath>Assets\Card4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\CHAI LATTE.jpg">
+      <PackagePath>Assets\CHAI LATTE.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Coffee1.jpg">
+      <PackagePath>Assets\Coffee1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Coffee2.jpg">
+      <PackagePath>Assets\Coffee2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Coffee3.jpg">
+      <PackagePath>Assets\Coffee3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Cookie1.jpg">
+      <PackagePath>Assets\Cookie1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Cookie2.jpg">
+      <PackagePath>Assets\Cookie2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\EARL GREY.jpg">
+      <PackagePath>Assets\EARL GREY.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\ENGLISH BREAKFAST.jpg">
+      <PackagePath>Assets\ENGLISH BREAKFAST.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Espresso.jpg">
+      <PackagePath>Assets\Espresso.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\FLAT WHITE.jpg">
+      <PackagePath>Assets\FLAT WHITE.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\FLUFFY.jpg">
+      <PackagePath>Assets\FLUFFY.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\HOT CHOCOLATE.jpg">
+      <PackagePath>Assets\HOT CHOCOLATE.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\LATTE.jpg">
+      <PackagePath>Assets\LATTE.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\LONG BLACK.jpg">
+      <PackagePath>Assets\LONG BLACK.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\MainPage.jpg">
+      <PackagePath>Assets\MainPage.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\MOCHACCINO.jpg">
+      <PackagePath>Assets\MOCHACCINO.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Pattern1.jpg">
+      <PackagePath>Assets\Pattern1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Pattern2.jpg">
+      <PackagePath>Assets\Pattern2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\PEPPERMINT.jpg">
+      <PackagePath>Assets\PEPPERMINT.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\TarotBack.jpg">
+      <PackagePath>Assets\TarotBack.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\TURKISH COFFEE.jpg">
+      <PackagePath>Assets\TURKISH COFFEE.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Turkishcoffee.jpg">
+      <PackagePath>Assets\Turkishcoffee.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Turkishcoffee1.jpg">
+      <PackagePath>Assets\Turkishcoffee1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Turkishcoffee3.jpg">
+      <PackagePath>Assets\Turkishcoffee3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Turkishcoffee4.jpg">
+      <PackagePath>Assets\Turkishcoffee4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Card.png">
+      <PackagePath>Assets\Card.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Coffee.png">
+      <PackagePath>Assets\Coffee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\coffeeIcon.png">
+      <PackagePath>Assets\coffeeIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Cookie.png">
+      <PackagePath>Assets\Cookie.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\CrackedCookie.png">
+      <PackagePath>Assets\CrackedCookie.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Drink.png">
+      <PackagePath>Assets\Drink.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\drinkIcon.png">
+      <PackagePath>Assets\drinkIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\fortuneCookieIcon.png">
+      <PackagePath>Assets\fortuneCookieIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Location.png">
+      <PackagePath>Assets\Location.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\logo1.png">
+      <PackagePath>Assets\logo1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\logo2.png">
+      <PackagePath>Assets\logo2.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Lotto.png">
+      <PackagePath>Assets\Lotto.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\PinIcon.png">
+      <PackagePath>Assets\PinIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Spread.png">
+      <PackagePath>Assets\Spread.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Tarot.png">
+      <PackagePath>Assets\Tarot.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\tarotIcon.png">
+      <PackagePath>Assets\tarotIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Turkishcoffee2.png">
+      <PackagePath>Assets\Turkishcoffee2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\0.png">
+      <PackagePath>Tarot\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\1.png">
+      <PackagePath>Tarot\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\10.png">
+      <PackagePath>Tarot\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\11.png">
+      <PackagePath>Tarot\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\12.png">
+      <PackagePath>Tarot\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\13.png">
+      <PackagePath>Tarot\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\14.png">
+      <PackagePath>Tarot\14.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\15.png">
+      <PackagePath>Tarot\15.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\16.png">
+      <PackagePath>Tarot\16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\17.png">
+      <PackagePath>Tarot\17.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\18.png">
+      <PackagePath>Tarot\18.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\19.png">
+      <PackagePath>Tarot\19.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\2.png">
+      <PackagePath>Tarot\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\20.png">
+      <PackagePath>Tarot\20.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\21.png">
+      <PackagePath>Tarot\21.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\3.png">
+      <PackagePath>Tarot\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\4.png">
+      <PackagePath>Tarot\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\5.png">
+      <PackagePath>Tarot\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\6.png">
+      <PackagePath>Tarot\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\7.png">
+      <PackagePath>Tarot\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\8.png">
+      <PackagePath>Tarot\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Tarot\9.png">
+      <PackagePath>Tarot\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\Cookie.gif">
+      <PackagePath>Assets\Cookie.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Assets\TarotCard.gif">
+      <PackagePath>Assets\TarotCard.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\CafeOZ.xr.xml">
+      <PackagePath>CafeOZ.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\AboutUs.xbf">
+      <PackagePath>AboutUs.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\Beverage.xbf">
+      <PackagePath>Beverage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\Cookie.xbf">
+      <PackagePath>Cookie.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\CookieDes.xbf">
+      <PackagePath>CookieDes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\Location.xbf">
+      <PackagePath>Location.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\Lotto.xbf">
+      <PackagePath>Lotto.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\Navi.xbf">
+      <PackagePath>Navi.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\Tarot.xbf">
+      <PackagePath>Tarot.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\TarotDes.xbf">
+      <PackagePath>TarotDes.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\Turkey.xbf">
+      <PackagePath>Turkey.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\wjwj0\source\repos\CafeOZ\CafeOZ\bin\x86\Debug\Core\CafeOZ.exe">
+      <PackagePath>CafeOZ.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.29713.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.29713.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.29301.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.29301.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.12\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.30035.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.30035.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

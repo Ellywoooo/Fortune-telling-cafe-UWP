@@ -1,0 +1,124 @@
+﻿<Page
+    x:Class="CafeOZ.AboutUs"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CafeOZ"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/MainPage.jpg" Opacity="0.8"/>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="8*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        
+        <!--About us textblock-->
+        <Grid
+            Grid.ColumnSpan="6"
+            Grid.Column="3"
+            Grid.Row="2"
+            Background="Purple"
+            Opacity="0.7"
+            CornerRadius="10"
+            Margin="2">
+            <TextBlock 
+                FontSize="30" 
+                FontFamily="Quicksand"  
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Text="About us" 
+                TextWrapping="Wrap"/>
+        </Grid>
+        <!--Logo-->
+        <Grid 
+            Grid.Column="2" 
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="2" 
+            Grid.Row="3"
+            Margin="5"
+            CornerRadius="20">
+            
+            <Image  Source="/Assets/Logo2.png" 
+                    Stretch="Fill"
+                    Opacity="0.9"/>
+        </Grid>
+        
+        <!--About us information-->
+        <Grid
+            Grid.Column="2" 
+            Grid.ColumnSpan="8"
+            Grid.Row="5" 
+            Grid.RowSpan="7"
+            HorizontalAlignment="Stretch"
+            Background="Black"
+            Opacity="0.6"
+            CornerRadius="10">
+
+            <ScrollViewer>
+                <TextBlock 
+                Foreground="White" 
+                FontSize="18"           
+                FontFamily="Quicksand"
+                TextWrapping="Wrap"
+                Margin="10"
+                HorizontalTextAlignment="Center">
+                Welcome to the Cafe OZ!<LineBreak/>
+                We offer the offer the great opportunity of interactive virtual fortune telling
+                experience with variety beverages for Coustomers.
+                Furthermore, it develops a unique and appealing platform that offers users mystical insights
+                and enjoyable refreshment options by combining fortune-telling entertainment with a cafe atmosphere!
+                </TextBlock>
+            </ScrollViewer>
+
+        </Grid>
+
+        <!--Location Button-->
+        <Grid Grid.ColumnSpan="4"
+              Grid.Column="4"
+              Grid.Row="12"
+              CornerRadius="20"
+              Opacity="0.7">
+            
+            <Button x:Name="Locationbtn" 
+                    Content="Location"  
+                    Height="40" Width="140" 
+                    Tapped="Locationbtn_Tapped" 
+                    FontFamily="Quicksand" 
+                    FontSize="20"
+                    Background="#CEAB4B"/>
+        </Grid>
+       
+    </Grid>
+</Page>

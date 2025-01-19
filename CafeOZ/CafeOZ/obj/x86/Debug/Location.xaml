@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="CafeOZ.Location"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CafeOZ"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Custom="using:Windows.UI.Xaml.Controls.Maps"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:ConnectionId='2' x:Name="MapGrid">
+
+        <Grid CornerRadius="10"
+              Margin="10,10,10,10">
+            <Custom:MapControl x:ConnectionId='3' x:Name="TestMap1" 
+                         MapServiceToken="h1bEzT5NsdVcnAumbtFn~g49bqDHwWhLRwq9csN1ePA~Au0p5uboCSquVGnwhrlwTljRlURvNCrf0BG-PZe_uVQKy2k0YXxI-EsgVlzkBjgb"  
+                         ZoomInteractionMode="GestureAndControl" 
+                         TiltInteractionMode="GestureAndControl"
+                         Style="Aerial3DWithRoads"
+                                                 
+                         ZoomLevel="30"
+                         DesiredPitch ="90"/>
+            
+
+        </Grid>
+
+      
+    </Grid>
+
+</Page>
+

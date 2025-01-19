@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{CB55B8F9-FF38-4ACB-B412-9ACDBD7F5CD0}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CafeOZ</RootNamespace>
+    <AssemblyName>CafeOZ</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM64'">
+    <OutputPath>bin\ARM64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.xaml.cs">
+      <DependentUpon>AboutUs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Beverage.xaml.cs">
+      <DependentUpon>Beverage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cookie.xaml.cs">
+      <DependentUpon>Cookie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CookieDes.xaml.cs">
+      <DependentUpon>CookieDes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Location.xaml.cs">
+      <DependentUpon>Location.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Lotto.xaml.cs">
+      <DependentUpon>Lotto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DrinkMenu.cs" />
+    <Compile Include="Models\Fortunecookie.cs" />
+    <Compile Include="Models\Info.cs" />
+    <Compile Include="Models\LottoGenerater.cs" />
+    <Compile Include="Models\TarotCard.cs" />
+    <Compile Include="Navi.xaml.cs">
+      <DependentUpon>Navi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tarot.xaml.cs">
+      <DependentUpon>Tarot.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TarotDes.xaml.cs">
+      <DependentUpon>TarotDes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Turkey.xaml.cs">
+      <DependentUpon>Turkey.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AMERICANO.jpg" />
+    <Content Include="Assets\CAPPUCCINO.jpg" />
+    <Content Include="Assets\CARAMEL LATTE.jpg" />
+    <Content Include="Assets\Card.png" />
+    <Content Include="Assets\Card1.jpg" />
+    <Content Include="Assets\Card2.jpg" />
+    <Content Include="Assets\Card3.jpg" />
+    <Content Include="Assets\Card4.jpg" />
+    <Content Include="Assets\CHAI LATTE.jpg" />
+    <Content Include="Assets\Coffee.png" />
+    <Content Include="Assets\Coffee1.jpg" />
+    <Content Include="Assets\Coffee2.jpg" />
+    <Content Include="Assets\Coffee3.jpg" />
+    <Content Include="Assets\coffeeIcon.png" />
+    <Content Include="Assets\Cookie.gif" />
+    <Content Include="Assets\Cookie.png" />
+    <Content Include="Assets\Cookie1.jpg" />
+    <Content Include="Assets\Cookie2.jpg" />
+    <Content Include="Assets\CrackedCookie.png" />
+    <Content Include="Assets\Drink.png" />
+    <Content Include="Assets\drinkIcon.png" />
+    <Content Include="Assets\EARL GREY.jpg" />
+    <Content Include="Assets\ENGLISH BREAKFAST.jpg" />
+    <Content Include="Assets\Espresso.jpg" />
+    <Content Include="Assets\FLAT WHITE.jpg" />
+    <Content Include="Assets\FLUFFY.jpg" />
+    <Content Include="Assets\fortuneCookieIcon.png" />
+    <Content Include="Assets\HOT CHOCOLATE.jpg" />
+    <Content Include="Assets\LATTE.jpg" />
+    <Content Include="Assets\Location.png" />
+    <Content Include="Assets\logo1.png" />
+    <Content Include="Assets\logo2.png" />
+    <Content Include="Assets\LONG BLACK.jpg" />
+    <Content Include="Assets\Lotto.png" />
+    <Content Include="Assets\MainPage.jpg" />
+    <Content Include="Assets\MOCHACCINO.jpg" />
+    <Content Include="Assets\Pattern1.jpg" />
+    <Content Include="Assets\Pattern2.jpg" />
+    <Content Include="Assets\PEPPERMINT.jpg" />
+    <Content Include="Assets\PinIcon.png" />
+    <Content Include="Assets\Spread.png" />
+    <Content Include="Assets\Tarot.png" />
+    <Content Include="Assets\TarotBack.jpg" />
+    <Content Include="Assets\TarotCard.gif" />
+    <Content Include="Assets\tarotIcon.png" />
+    <Content Include="Assets\TURKISH COFFEE.jpg" />
+    <Content Include="Assets\Turkishcoffee.jpg" />
+    <Content Include="Assets\Turkishcoffee1.jpg" />
+    <Content Include="Assets\Turkishcoffee2.png" />
+    <Content Include="Assets\Turkishcoffee3.jpg" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Tarot\0.png" />
+    <Content Include="Tarot\1.png" />
+    <Content Include="Tarot\10.png" />
+    <Content Include="Tarot\11.png" />
+    <Content Include="Tarot\12.png" />
+    <Content Include="Tarot\13.png" />
+    <Content Include="Tarot\14.png" />
+    <Content Include="Tarot\15.png" />
+    <Content Include="Tarot\16.png" />
+    <Content Include="Tarot\17.png" />
+    <Content Include="Tarot\18.png" />
+    <Content Include="Tarot\19.png" />
+    <Content Include="Tarot\2.png" />
+    <Content Include="Tarot\20.png" />
+    <Content Include="Tarot\21.png" />
+    <Content Include="Tarot\3.png" />
+    <Content Include="Tarot\4.png" />
+    <Content Include="Tarot\5.png" />
+    <Content Include="Tarot\6.png" />
+    <Content Include="Tarot\7.png" />
+    <Content Include="Tarot\8.png" />
+    <Content Include="Tarot\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="AboutUs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Beverage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cookie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CookieDes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Location.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Lotto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Navi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tarot.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TarotDes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Turkey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.12</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Turkishcoffee4.jpg" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
